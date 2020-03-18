@@ -9,8 +9,8 @@ end
 pause(1)
 if ncols == 2     
     figure(2)
-    plot(x(:,1),x(:,2))
+    comet(x(:,1),x(:,2))
 else
     figure(2)
-    plot3(x(:,1),x(:,2),x(:,3))
+    comet3(x(:,1),x(:,2),x(:,3))
 end
